@@ -2,7 +2,7 @@
 $json = file_get_contents("https://exercise2json.herokuapp.com/json.php");
 
 $data = json_decode($json,true);
-$list = $data['browser'];
+$list = $data['Browser'];
 
 
 ?>
