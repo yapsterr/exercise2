@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("https://jubelagjson.herokuapp.com/json.php");
+$json = file_get_contents("");
 
 $data = json_decode($json,true);
 $list = $data['browser'];
