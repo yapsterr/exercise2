@@ -1,5 +1,5 @@
 <?php
-class Browser{
+class browser{
 	public $database;
 	
 	public function __construct(){
@@ -11,7 +11,7 @@ class Browser{
 		}
 	}
 	
-	public function get_Browser(){
+	public function get_browser(){
 		$sql = "SELECT * FROM tblbrowser";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
