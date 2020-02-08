@@ -2,9 +2,9 @@
 include 'config.php';
 include 'class.browser.php';
 header('Content-Type: application/json');
-$browser = new browser();
-$list=$browser->get_browser();
-echo "{\"browser\":";
+$browser = new Browser();
+$list=$browser->get_Browser();
+echo "{\"Browser\":";
 echo json_encode($list);
 echo "}";
 ?>
