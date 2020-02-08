@@ -1,5 +1,5 @@
 <?php
-class Ballpen{
+class Browser{
 	public $database;
 	
 	public function __construct(){
@@ -11,7 +11,7 @@ class Ballpen{
 		}
 	}
 	
-	public function get_Ballpen(){
+	public function get_Browser(){
 		$sql = "SELECT * FROM tblbrowser";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
